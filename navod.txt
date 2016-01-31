@@ -1,0 +1,48 @@
+instalacia:
+
+http://coolestguidesontheplanet.com/get-apache-mysql-php-and-phpmyadmin-working-on-osx-10-11-el-capitan/
+
+http://jason.pureconcepts.net/2015/10/install-apache-php-mysql-mac-os-x-el-capitan/
+
+http://jason.pureconcepts.net/2015/10/update-apache-php-mysql-mac-os-x-el-capitan/
+
+
+http://simonmerrick.co.uk/blog/installing-mysql-on-mac-os-x-el-capitan-10-11
+
+http://getgrav.org/blog/mac-os-x-apache-setup-mysql-vhost-apc
+
+--------------------
+
+aplikacia
+
+https://www.binpress.com/tutorial/using-php-with-mysql-the-right-way/17
+
+http://www.sanwebe.com/2013/06/creating-simple-shopping-cart-with-php
+
+---
+mail
+http://www.developerfiles.com/how-to-send-emails-from-localhost-mac-os-x-el-capitan/
+
+
+---
+
+zend_extension = /usr/lib/php/extensions/no-debug-non-zts-20090626/xdebug.so
+xdebug.remote_enable=on
+xdebug.remote_log="/var/log/xdebug.log"
+xdebug.remote_host=localhost
+xdebug.remote_handler=dbgp
+xdebug.remote_port=9000
+
+
+Prikazy
+----
+php -info
+php -v
+apachectl restart
+
+
+etc/php.ini
+
+
+server
+https://www.maxiorel.cz/jak-zprovoznit-slepy-smtp-server-pro-testovani-php-aplikaci

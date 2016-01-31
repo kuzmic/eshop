@@ -1,0 +1,71 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Shopping Cart</title>
+
+
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <!--skuska boostrap--------------------->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/shop-homepage.css" rel="stylesheet">
+    <!----koniec skusky boostrap------------------->
+
+
+
+</head>
+<!---------html formular odosielaci metodou post akciou  add.php------------------------------------------------------------------->
+<body>
+<div class="container">
+
+
+<form role="form" name="" method="post" action="add.php">
+
+
+    <div class="form-group">
+
+        <label for="product_name">Názov produktu</label>
+        <input id="product_name" type="text" class="form-control" name="product_name">
+
+    </div>
+
+    <div class="form-group">
+
+        <label for="product_code">Číslo produktu</label>
+        <input id="product_code" type="text" class="form-control" name="product_code">
+
+    </div>
+
+    <div class="form-group">
+
+        <label for="product_img_name">Obrazok</label>
+        <input id="product_img_name" type="text" class="form-control" name="product_img_name">
+
+    </div>
+
+    <div class="form-group">
+
+        <label for="price">Cena</label>
+        <input id="price" type="text" class="form-control" name="price">
+
+    </div>
+
+    <div class="form-group">
+
+        <label for="product_desc">Popis</label>
+        <input id="product_desc" type="text" class="form-control" name="product_desc">
+
+    </div>
+
+
+    <button type="submit" class="btn btn-default">Pridaj</button>
+    <button type="submit" class="btn btn-default"><a href="productList.php"></a>Späť</button>
+
+</form>
+
+</div> <!--------end container----->
+
+</body>
+</html>
